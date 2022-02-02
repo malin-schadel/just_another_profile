@@ -1,0 +1,66 @@
+/* TODO: design your profile with CSS */
+@font-face {
+  font-family: "Comforter";
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EEE6CE;
+}
+
+h1, h2 {
+  color: #2EB086;
+  text-align: center;
+  font-family: 'Comforter';
+}
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 32px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.btn-green {
+  background-color: #2EB086;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.6s;
+}
+
+.btn-green:hover {
+  background-color: #1f7c5f;
+}
+
+ul {
+  padding-left: 0;
+
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+i {
+  color: #2EB086;
+  font-size: 4em;
+  padding: 16px;
+  transition: 0.6s;
+
+}
+
+i:hover {
+  color: #1f7c5f;
+}
